@@ -35,7 +35,6 @@ namespace UnitTestProject1
             {
                 int result = Bibl.Min(2, 5, 7);
                 Assert.AreEqual(7, result);
-                const int min = 2;
             }
         }
     }
